@@ -1,0 +1,364 @@
+@charset "utf-8";
+/*introduction*/
+.wrap1{
+    width: 1200px;
+    margin: 0 auto;
+}
+.introduction{
+    margin-top: 63px;
+    height: 520px;
+    position: relative;
+}
+
+.introduction .filter{
+    height: 171px;
+    width: 110%;
+    background: #f4f4f4;
+    position: absolute;
+    top: 304px;
+    z-index: -1;
+}
+
+.container .title{
+    width: 270px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.container .title h2{
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    color: #020202;
+}
+.container .title h2 span{
+    width: 14px;
+    height: 14px;
+    background: url("container_ico1.png") no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.container .title p{
+    font-size: 30px;
+    color: #000000;
+}
+.introduction .info{
+    margin-top: 124px;
+}
+.introduction .info .fl{
+    float: left;
+    width: 600px;
+}
+.introduction .info .fr{
+    float: right;
+    padding-top: 28px;
+}
+.introduction .info h3{
+    font-size: 20px;
+    color: #010101;
+    margin-bottom: 36px;
+    text-align: center;
+}
+.introduction .info p{
+    text-indent: 2em;
+    font-size: 14px;
+    color: #666666;
+    text-align: left;
+    line-height: 32px;
+}
+/*design*/
+.design{
+    margin-top: 70px;
+    height: 630px;
+    position: relative;
+
+}
+.design .filter{
+    height: 450px;
+    padding-top: 50px;
+    width: 100%;
+    background: url("design_01.png") no-repeat center top;
+    position: absolute;
+    bottom: 0;
+}
+.design .filter ul{
+    width: 1158px;
+    margin:  0 auto;
+    padding: 38px 0 0 55px;
+}
+.design .filter ul li{
+    color: #fff;
+    float: left;
+}
+.design .filter ul li.current{
+    margin-right: 147px;
+    margin-bottom: 49px;
+}
+.design .filter ul li img{
+    float: left;
+    margin-right: 28px;
+}
+.design .filter ul li .fl{
+    float: left;
+    padding-top: 20px;
+}
+.design .filter ul li h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+.design .filter ul li p{
+    font-size: 14px;
+    width: 353px;
+}
+.design .title1{
+    text-align: center;
+}
+.design .title1 h2{
+    color: #fff;
+    font-size: 30px;
+}
+.design .title1 p{
+    color: #dcd5d5;
+    font-size: 16px;
+    line-height: 30px;
+}
+/*advantage*/
+.advantage{
+    position: relative;
+}
+.advantage .bg1{
+    height: 193px;
+    background: #111111;
+}
+.advantage .bg2{
+    height: 555px;
+    background: #f3f3f3;
+}
+.advantage .advantage1{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    width: 1140px;
+    margin-left: -600px;
+    padding-left: 60px;
+}
+.advantage .button{
+    position: absolute;
+    top: 147px;
+    left: 88%;
+    cursor: pointer;
+}
+.advantage .advantage1 .first .fl{
+    float: left;
+}
+.advantage .advantage1 .first .fll{
+    float: left;
+    width: 683px;
+}
+.advantage .advantage1 .first .fll .aa{
+    padding-left: 108px;
+    background: url(advantage_icon02.png) no-repeat left 75px;
+}
+.advantage .advantage1 .first .fll h2{
+    color:#fff;
+    font-size: 33px;
+    font-weight: bold;
+    font-family: Arial;
+
+}
+.advantage .advantage1 .first .fll p{
+    color:#fff;
+    font-size: 33px;
+}
+.advantage .advantage1 .first .fll dl{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.advantage .advantage1 .first .fll dt{
+    color: #000;
+    font-size: 22px;
+}
+.advantage .advantage1 .first .fll dt .number{
+    color: #747474;
+    font-size: 47px;
+    font-weight: bold;
+    font-family: Arial;
+    display: inline-block;
+    margin-right: 30px;
+}
+.advantage .advantage1 .first .fll dt .font{
+    display: inline-block;
+    width: 220px;
+    height: 48px;
+}
+.advantage .advantage1 .first .fll dd{
+    color: #454545;
+    font-size: 16px;
+    width: 470px;
+    padding-left: 86px;
+    padding-top: 20px;
+    background: url("advantage_icon01.png") no-repeat 27px 30px;
+}
+
+
+.advantage .advantage1 .second .fl{
+    float: left;
+}
+.advantage .advantage1 .second .fll{
+    float: left;
+    width: 683px;
+}
+.advantage .advantage1 .second .fll .aa{
+    padding-left: 80px;
+}
+.advantage .advantage1 .second.fll h2{
+    color:#fff;
+    font-size: 33px;
+    font-weight: bold;
+    font-family: Arial;
+
+}
+.advantage .advantage1 .second .fll p{
+    color:#fff;
+    font-size: 33px;
+}
+.advantage .advantage1 .second .fll dl{
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.advantage .advantage1 .second .fll dt{
+    color: #000;
+    font-size: 22px;
+}
+.advantage .advantage1 .second .fll dt .number{
+    color: #747474;
+    font-size: 47px;
+    font-weight: bold;
+    font-family: Arial;
+    display: inline-block;
+    margin-right: 30px;
+}
+.advantage .advantage1 .second .fll dt .font{
+    display: inline-block;
+    width: 220px;
+    height: 48px;
+}
+.advantage .advantage1 .second .fll dd{
+    color: #454545;
+    font-size: 16px;
+    width: 470px;
+    padding-left: 86px;
+    padding-top: 20px;
+    background: url("advantage_icon01.png") no-repeat 27px 30px;
+}
+/*location*/
+.location1{
+    height: 234px;
+    background: #111111;
+    text-align: center;
+    padding-top: 28px;
+}
+.location1 p{
+    font-size: 32px;
+    color: #fefefe;
+    margin-top: 15px;
+    margin-bottom: 32px;
+}
+.location1 p span{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+}
+.location1 a{
+    display: inline-block;
+    width: 102px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 28px;
+}
+.location1 a:hover{
+    background: #00ae67;
+}
+.location2{
+    height: 600px;
+    padding-top: 59px;
+    padding-left: 50px;
+    background: url("location_02.png") no-repeat center top;
+ }
+
+.location2 .fl{
+    float: left;
+}
+.location2 ul{
+    float: left;
+    padding-top: 40px;
+}
+.location2 ul.first{
+    padding-left: 60px;
+}
+.location2 ul.second{
+    padding-left: 33px;
+}
+.location2 ul li{
+    margin-bottom: 35px;
+    height: 57px;
+}
+.location2 ul li span{
+    display: block;
+}
+.location2 .icon{
+    width: 83px;
+    height: 57px;
+    border: 1px solid #a0a0a0;
+    border-radius:5px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.location2 ul.second span{
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: -10px;
+}
+.location2 ul.second span.bold{
+    font-weight: bold;
+}
+/*joinus*/
+.container .joinus .title h2 span {
+    right: 54px;
+}
+.joinus .filter{
+    margin-top: 50px;
+    height: 440px;
+    background: url("joinus_01.png") no-repeat center center;
+}
+.joinus .filter .wrap1{
+    width: 545px;
+    padding-left: 655px;
+    margin: 0 auto;
+}
+.joinus .filter ul{
+
+    padding-top: 74px;
+}
+.joinus .filter li{
+    float: left;
+    width: 138px;
+    margin-right: 27px;
+}
+.joinus .filter li p{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.joinus .filter .contact{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 35px;
+}

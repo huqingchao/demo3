@@ -1,0 +1,12 @@
+document.writeln("<dl class=\"m-menu\">");
+document.writeln("	<dt><a href=\"about.html\">内容模式</a></dt>");
+document.writeln("	<dt><a href=\"news.html\">新闻列表</a></dt>");
+document.writeln("	<dd><a href=\"display.html\">新闻详细页面</a></dd>");
+document.writeln("	<dt><a href=\"product.html\">图片（产品）列表</a></dt>");
+document.writeln("	<dd><a href=\"product_display.html\">产品详细页面</a></dd>");
+document.writeln("	<dt><a href=\"picnews.html\">图文列表</a></dt>");
+document.writeln("	<dt><a href=\"hr.html\">人才招聘</a></dt>");
+document.writeln("	<dd><a href=\"hr_display.html\">人才招聘详细页面</a></dd>");
+document.writeln("	<dt><a href=\"message.html\">在线留言</a></dt>");
+document.writeln("</dl>");
+document.writeln("<p class=\"u-download\"><a href=\"02.rar\" target=\"_blank\">下载</a></p>");
